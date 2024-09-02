@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reponse type="resultat">
+<sce id="adnaitest2020-05-05" tour="1" date="2018-06-18" centreID="99" centre="TEST">
+<notes>Prendre le jumbo</notes>
+<ressources>
+<agts>
+<agt nom="ADNAI AGENT TEST 01" id="99999" />
+<agt nom="ADNAI AGENT TEST 02" id="99998" />
+ </agts>
+<vehicule nom="PL 185 ADNAI" id="185" />
+ </ressources>
+<chargement>
+<emport>
+<C nom="BAC 770 L timonné " qte="" />
+<C nom="Balles" qte="9" />
+<C nom="Palettes (non fournies)" qte="6" />
+<C nom="BAC 770 L " qte="1" />
+ </emport>
+<retour>
+<C nom="BAC 770 L timonné " qte="" />
+<C nom="Balles" qte="9" />
+<C nom="BAC 770 L " qte="1" />
+ </retour>
+ </chargement>
+<dessertes start="????" stop="????">
+<pc id="ADNAI999993" nom="ADNAI GFI St ouen 3">
+<ctc>
+   <ct id="613" titre="GADOUCHE " tel="01 40 17 86 00/59" fonction="Accueil"/>
+   <ct id="614" titre="PRIETO" tel="01 40 17 88 34" fonction="Inconnue"/>
+   <ct id="615" titre="BUNEL" tel="05.46.42.25.01" fonction="Dev"/>
+</ctc>
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">1 Rue des Majolières</a>
+<a nom="adr2" />
+<a nom="cp">17220</a>
+<a nom="ville">Saint Vivien</a>
+ </loc>
+<consignes>
+<horaires>A PARTIR DE 7H00</horaires>
+<adresseacces>4 rue riberioux madelein</adresseacces>
+<contact>Mr lagouche ou mr tadmaya 05.46.42.25.01</contact>
+<recommandations>DEPOSER AVIS PASSAGE SUR LA PORTE </recommandations>
+ </consignes>
+<operations>
+    <op compo="530783" id="6517856" type="P" nom="Retrait D3E Grillagé normal " prestation="Retrait" pdscompo="">
+        <dispo>3 Ordinateurs Portables + 3 Unités Centrales + 25 kg de Périphérique + 3 Écrans Plats + 1 Onduleur : le tout stocker au 6°étage accessible par ascenseur - Voir photos envoyées par la cliente</dispo>
+    </op>
+ </operations>
+</pc>
+ </dessertes>
+ </sce>
+ </reponse>

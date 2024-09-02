@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reponse type="resultat">
+<sce id="adnaitest-ARG04" daykey="adnaitest-ARG04" tour="1" date="2019-04-08" centreID="98" centre="TEST">
+<notes />
+<ressources>
+<agts>
+<agt nom="ADNAI AGENT TEST 70" id="70205" />
+<agt nom="ADNAI AGENT TEST 71" id="70465" />
+ </agts>
+<vehicule nom="Vl 421 ARG" id="421" />
+ </ressources>
+<chargement>
+<emport>
+<C nom="BAC 240 L " qte="24" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+<C nom="Sacs" qte="5" />
+<C nom="BAC 340 L " qte="7" />
+<C nom="Palettes (non fournies)" qte="5" />
+ </emport>
+<retour>
+<C nom="BAC 240 L " qte="24" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+<C nom="Sacs" qte="5" />
+<C nom="BAC 340 L " qte="7" />
+<C nom="Palettes (non fournies)" qte="5" />
+ </retour>
+ </chargement>
+<dessertes start="????" stop="????">
+<pc id="ADNAI-ARG0401" nom="ADNAI PC Fictif 04-01" status="att">
+<ctc>
+<ct id="777" titre="MARECAR" tel="01 46 93 97 33" fonction="Assistant" />
+</ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="????" lng="????">
+<a nom="adr1">10 rue de l'Ouest</a>
+<a nom="adr2"></a>
+<a nom="cp">95100</a>
+<a nom="ville">ARGENTEUIL</a>
+ </loc>
+<consignes>
+<horaires>08h00-17h00</horaires>
+<acces>LA DEFENSE SORTIE 12 // QUAI DE LIVRAISON RECUPERER UN BADGE</acces>
+<contact>MR MARIE 06 72 91 32 70</contact>
+ </consignes>
+<docs>
+<doc url="http://ose.cedre.info/uploads/pc-2469-fm-insurance.pdf" />
+</docs>
+<operations>
+<op compo="141843" id="4767583" type="R" nom="Collecte Gobelet " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="8" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Gobelet" col_etage="0" col_cons="emplacement corbeilles: 2 au 8eme+2 au 7eme+1 au 6eme" />
+</op>
+<op compo="20992" id="3651268" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="4" nom="BAC 240 L " qteprev="1" qtereel="????" pdsreel="????" tare="13" volume="0.5" dechet="Papier" col_etage="0" col_cons="1 au 6ème, 2 au 7ème ( 1er coté réception, fond du couloir / 2nd coté claims monte charge à l'opposé de la réception) et 1 au 8ème " />
+</op>
+<op compo="132504" id="4926070" type="R" nom="Collecte Plastique ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="1" qtereel="????" pdsreel="????" tare="37.5">Retrait 1x340L fermé plastique et dépôt d'1x770L ferm¿¿</dispo>
+</op>
+ </operations>
+ </pc>
+ </dessertes>
+ </sce>
+</reponse>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reponse type="resultat">
+<sce id="23" daykey="AAFA" tour="1" date="2018-11-27">
+<notes />
+<ressources>
+<agts>
+<agt nom="LAKHDARI VL" id="205" />
+<agt nom="DJABALLAH" id="465" />
+ </agts>
+<vehicule nom="Vl 421 ARG" id="421" />
+ </ressources>
+<chargement>
+<emport>
+<C nom="BAC 340 L " qte="2" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+<C nom="BAC 770 L " qte="2" />
+<C nom="BAC 240 L fermé alu " qte="" />
+<C nom="Corbeille - Gobelets plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Papiers plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte="" />
+<C nom="Sacs" qte="26" />
+<C nom="Corbeille papiers (petites)" qte="7" />
+<C nom="Sacs 110L " qte="7" />
+ </emport>
+<retour>
+<C nom="BAC 340 L " qte="2" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+<C nom="BAC 770 L " qte="2" />
+<C nom="BAC 240 L fermé alu " qte="" />
+<C nom="Corbeille - Gobelets plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Papiers plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte="" />
+<C nom="Sacs" qte="26" />
+<C nom="Corbeille papiers (petites)" qte="7" />
+<C nom="Sacs 110L " qte="7" />
+<C nom="BAC 120 L fermé " qte="" />
+<C nom="BAC 240 L " qte="2" />
+ </retour>
+ </chargement>
+<dessertes start="????" stop="????">
+ </dessertes>
+ </sce>
+</reponse>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reponse type="resultat">
+<sce id="adnaitest2020-05-05" tour="1" date="2018-06-18" centreID="99" centre="TEST">
+<notes>Prendre le jumbo</notes>
+<ressources>
+<agts>
+<agt nom="ADNAI AGENT TEST 01" id="99999" />
+<agt nom="ADNAI AGENT TEST 02" id="99998" />
+ </agts>
+<vehicule nom="PL 185 ADNAI" id="185" />
+ </ressources>
+<chargement>
+<emport>
+<C nom="BAC 770 L timonné " qte="" />
+<C nom="Balles" qte="9" />
+<C nom="Palettes (non fournies)" qte="6" />
+<C nom="BAC 770 L " qte="1" />
+ </emport>
+<retour>
+<C nom="BAC 770 L timonné " qte="" />
+<C nom="Balles" qte="9" />
+<C nom="BAC 770 L " qte="1" />
+ </retour>
+ </chargement>
+<dessertes start="????" stop="????">
+<pc id="ADNAI999993" nom="ADNAI GFI St ouen 3">
+<ctc>
+   <ct id="613" titre="GADOUCHE " tel="01 40 17 86 00/59" fonction="Accueil"/>
+   <ct id="614" titre="PRIETO" tel="01 40 17 88 34" fonction="Inconnue"/>
+   <ct id="615" titre="BUNEL" tel="05.46.42.25.01" fonction="Dev"/>
+</ctc>
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">1 Rue des Majolières</a>
+<a nom="adr2" />
+<a nom="cp">17220</a>
+<a nom="ville">Saint Vivien</a>
+ </loc>
+<consignes>
+<horaires>A PARTIR DE 7H00</horaires>
+<adresseacces>4 rue riberioux madelein</adresseacces>
+<contact>Mr lagouche ou mr tadmaya 05.46.42.25.01</contact>
+<recommandations>DEPOSER AVIS PASSAGE SUR LA PORTE </recommandations>
+ </consignes>
+<operations>
+<op compo="141843" id="4767583" type="R" nom="Collecte Gobelet " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="8" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Gobelet" col_etage="0" col_cons="emplacement corbeilles: 2 au 8eme+2 au 7eme+1 au 6eme" />
+</op>
+<op compo="20992" id="3651268" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="4" nom="BAC 240 L " qteprev="1" qtereel="????" pdsreel="????" tare="13" volume="0.5" dechet="Papier" col_etage="0" col_cons="1 au 6ème, 2 au 7ème ( 1er coté réception, fond du couloir / 2nd coté claims monte charge à l'opposé de la réception) et 1 au 8ème " />
+</op>
+<op compo="132504" id="4926070" type="R" nom="Collecte Plastique ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="1" qtereel="????" pdsreel="????" tare="37.5">Retrait 1x340L fermé plastique et dépôt d'1x770L ferm¿¿</dispo>
+</op>
+ </operations>
+</pc>
+ </dessertes>
+ </sce>
+ </reponse>

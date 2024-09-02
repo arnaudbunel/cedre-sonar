@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reponse type="resultat">
+<sce id="23" daykey="AAFA" tour="1" date="2018-11-27">
+<notes />
+<ressources>
+<agts>
+<agt nom="LAKHDARI VL" id="205" />
+<agt nom="DJABALLAH" id="465" />
+ </agts>
+<vehicule nom="Vl 421 ARG" id="421" />
+ </ressources>
+<chargement>
+<emport>
+<C nom="BAC 340 L " qte="2" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+<C nom="BAC 770 L " qte="2" />
+<C nom="BAC 240 L fermé alu " qte="" />
+<C nom="Corbeille - Gobelets plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Papiers plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte="" />
+<C nom="Sacs" qte="26" />
+<C nom="Corbeille papiers (petites)" qte="7" />
+<C nom="Sacs 110L " qte="7" />
+ </emport>
+<retour>
+<C nom="BAC 340 L " qte="2" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+<C nom="BAC 770 L " qte="2" />
+<C nom="BAC 240 L fermé alu " qte="" />
+<C nom="Corbeille - Gobelets plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Papiers plastifiée (Kit Grand format)" qte="" />
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte="" />
+<C nom="Sacs" qte="26" />
+<C nom="Corbeille papiers (petites)" qte="7" />
+<C nom="Sacs 110L " qte="7" />
+<C nom="BAC 120 L fermé " qte="" />
+<C nom="BAC 240 L " qte="2" />
+ </retour>
+ </chargement>
+<dessertes start="????" stop="????">
+<pc id="1894" nom="[VINCI MEWS INNOVATION " status="att">
+<ctc>
+<ct id="304" titre="ROKICKA" tel="01 44 54 24 00" fonction="Responsable Ressources Humaines" />
+</ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="????" lng="????">
+<a nom="adr1">25 rue d'artois</a>
+<a nom="adr2" />
+<a nom="cp">75008</a>
+<a nom="ville">PARIS</a>
+ </loc>
+<consignes>
+<horaires>09h00-12h00 / 14h00-17h00</horaires>
+<acces>.</acces>
+<contact>MME ROKICKA 01 44 54 24 00</contact>
+ </consignes>
+<docs />
+<operations>
+<op compo="177794" id="5135827" type="P" nom="Retrait définitif BAC 120 L fermé " prestation="Retrait définitif">
+<dispo id="2" nom="BAC 120 L fermé " qteprev="1" qtereel="????" pdsreel="????" tare="9.5" volume="0.3" dechet="" col_etage="0" col_cons="canettes" />
+</op>
+<op compo="177791" id="5135829" type="P" nom="Retrait définitif BAC 240 L " prestation="Retrait définitif">
+<dispo id="4" nom="BAC 240 L " qteprev="1" qtereel="????" pdsreel="????" tare="13" volume="0.5" dechet="" col_etage="0" col_cons="papiers" />
+</op>
+<op compo="177790" id="5135828" type="P" nom="Retrait définitif BAC 120 L fermé " prestation="Retrait définitif">
+<dispo id="4" nom="BAC 240 L " qteprev="1" qtereel="????" pdsreel="????" tare="13" volume="0.5" dechet="" col_etage="0" col_cons="plastique" />
+</op>
+ </operations>
+ </pc>
+<pc id="2265" nom="[SCP Thibierge et Associés" status="att">
+<ctc>
+<ct id="613" titre="GADOUCHE " tel="01 40 17 86 00/59" fonction="Accueil" />
+<ct id="614" titre="PRIETO" tel="01 40 17 88 34" fonction="Inconnue" />
+ </ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="????" lng="????">
+<a nom="adr1">9 rue d'Astorg</a>
+<a nom="adr2" />
+<a nom="cp">75008</a>
+<a nom="ville">PARIS</a>
+ </loc>
+<consignes>
+<horaires>07H30 (PAS AVANT)</horaires>
+<acces>.</acces>
+<contact>Mr MABROUK 06 07 65 81 65</contact>
+ </consignes>
+<docs />
+<operations>
+<op compo="130492" id="4992478" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="12" nom="BAC 770 L " qteprev="2" qtereel="????" pdsreel="????" tare="37.5" volume="1" dechet="Papier" col_etage="0" col_cons="" />
+</op>
+</operations>
+ </pc>
+<pc id="3004" nom="[FIL GESTION" status="att">
+<ctc>
+<ct id="1168" titre=" AGBOANOU" tel="01 73 04 35 13" fonction="Inconnue" />
+</ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="????" lng="????">
+<a nom="adr1">29 rue de Berri</a>
+<a nom="adr2" />
+<a nom="cp">75008</a>
+<a nom="ville">PARIS</a>
+ </loc>
+<consignes>
+<horaires>08h30-09h30 (PAS AVANT 8H30 ET PAS APRES 9H30 )</horaires>
+<acces>.</acces>
+<contact>PASSER OBLIGATOIREMENT PAR LA RECEPTION</contact>
+ </consignes>
+<docs>
+<doc url="http://ose.cedre.info/uploads/pc-3004-fil-gestion.pdf" />
+<doc url="http://ose.cedre.info/uploads/pc-3004-fil-gestion-corbeille-design.pdf" />
+<doc url="http://ose.cedre.info/uploads/pc-3004-skmbt_c28418090314220.pdf" />
+ </docs>
+<operations>
+<op compo="31339" id="4843261" type="R" nom="Collecte Canettes Sacs " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="5" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Canettes" col_etage="0" col_cons="vidage de corbeilles ( CORBEILLES CLIENT + VOIR PHOTO)" />
+</op>
+<op compo="155215" id="5046086" type="R" nom="Collecte Confidentiels Confidentiels" prestation="Collecte">
+<dispo id="6" nom="BAC 240 L fermé alu " qteprev="2" qtereel="????" pdsreel="????" tare="17.5" volume="0.5" dechet="Confidentiels" col_etage="0" col_cons="Bien déposer 2 bacs, et, récupérer ceux sur site " />
+</op>
+<op compo="31339" id="4827668" type="R" nom="Collecte Canettes Sacs " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="5" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Canettes" col_etage="0" col_cons="vidage de corbeilles ( CORBEILLES CLIENT + VOIR PHOTO)" />
+</op>
+<op compo="46922" id="4970735" type="R" nom="Collecte Plastique Sacs " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="5" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Plastique" col_etage="0" col_cons="vidage de corbeilles ( CORBEILLES CLIENT + VOIR PHOTO)" />
+</op>
+<op compo="46921" id="4968447" type="R" nom="Collecte Gobelet " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="5" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Gobelet" col_etage="0" col_cons="" />
+</op>
+<op compo="31336" id="4951215" type="R" nom="Collecte Papier Sacs " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="5" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Papier" col_etage="0" col_cons="vidage de corbeilles (inclus corbeille ronde / CORBEILLES CLIENT + VOIR PHOTO)" />
+</op>
+ </operations>
+ </pc>
+<pc id="13291" nom="[BANK AUDI FRANCE]" status="att">
+<ctc>
+<ct id="1405" titre="OBEID" tel="01 53 83 50 00" fonction="Inconnue" />
+<ct id="1406" titre="MARTIN-WAKIM" tel="01 53 83 50 31" fonction="Inconnue" />
+ </ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="????" lng="????">
+<a nom="adr1">73 avenue des Champs Élysées</a>
+<a nom="adr2" />
+<a nom="cp">75008</a>
+<a nom="ville">PARIS</a>
+ </loc>
+<consignes>
+<horaires>09h00-12h00 (PAS AVANT 09h00)</horaires>
+<acces>.</acces>
+<contact>MME OBEID MAYA 01 53 83 50 00 OU MME BRICHE</contact>
+ </consignes>
+<docs>
+<doc url="http://ose.cedre.info/uploads/pc-13291-bank-audi-france.pdf" />
+</docs>
+<operations>
+<op compo="49202" id="4917692" type="R" nom="Collecte Confidentiels Confidentiels" prestation="Collecte">
+<dispo id="3" nom="BAC 120 L fermé ALU" qteprev="3" qtereel="????" pdsreel="????" tare="8" volume="0.25" dechet="Confidentiels" col_etage="3" col_cons="Etage 1, 2, et 3 (1 bac à chaque étage)" />
+</op>
+<op compo="48678" id="2489888" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="7" nom="BAC 340 L " qteprev="1" qtereel="????" pdsreel="????" tare="17" volume="0.6" dechet="Papier" col_etage="0" col_cons="Niveau - 1 sous sol / à gauche gauche en sortant de l'ascenseur sous l'escalier. " />
+</op>
+ </operations>
+ </pc>
+<pc id="49753" nom="[PRADA RETAIL FRANCE]" status="att">
+<ctc />
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="????" lng="????">
+<a nom="adr1">18 avenue Matignon</a>
+<a nom="adr2" />
+<a nom="cp">75008</a>
+<a nom="ville">PARIS</a>
+ </loc>
+<consignes>
+<horaires>09h00-11h00 (PAS AVANT 09h00)</horaires>
+<acces>.</acces>
+<contact>MME ELENA MURARI</contact>
+ </consignes>
+<docs />
+<operations>
+<op compo="165480" id="5110135" type="R" nom="Main d'oeuvre " prestation="Main d'oeuvre">
+<dispo />
+</op>
+<op compo="165478" id="5110386" type="R" nom="Collecte Plastique " prestation="Collecte">
+<dispo id="102" nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qteprev="2" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Plastique" col_etage="1" col_cons="2eme étage dans la cuisine (1 corb), Rdc (1 corb)" />
+</op>
+<op compo="165476" id="5110305" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="104" nom="Corbeille - Papiers plastifiée (Kit Grand format)" qteprev="7" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Papier" col_etage="1" col_cons="2ème étage. 3 gdes corbeilles / 3eme étage au fond des bureaux, coté imprimante (1 corb) / 1er étage (3 corb) / Rdc (1 corb) " />
+</op>
+<op compo="165477" id="5110220" type="R" nom="Collecte Gobelet " prestation="Dépôt">
+<dispo id="103" nom="Corbeille - Gobelets plastifiée (Kit Grand format)" qteprev="5" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Gobelet" col_etage="1" col_cons="2eme étage dans la cuisine (1 corb), 3eme étage au fond des bureaux, coté imprimante (1 corb), 1er étage kitchenette (1 corb), Rdc (2 corb) " />
+</op>
+<op compo="165475" id="5110221" type="R" nom="Collecte Papier " prestation="Fourniture">
+<dispo id="105" nom="Corbeille papiers (grandes)" qteprev="5" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Papier" col_etage="1" col_cons="2eme étage dans la cuisine (1 corb), 3eme étage au fond des bureaux, coté imprimante (1 corb), 1er étage kitchenette (1 corb), Rdc (2 corb) " />
+</op>
+ </operations>
+ </pc>
+<pc id="49983" nom="[SHAN 8EME" status="att">
+<ctc />
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="????" lng="????">
+<a nom="adr1">30 rue des Mathurins</a>
+<a nom="adr2">site Paris 8</a>
+<a nom="cp">75008</a>
+<a nom="ville">PARIS</a>
+ </loc>
+<consignes>
+<horaires>09h30-12h30 (PAS AVANT 09h30)</horaires>
+<acces>.</acces>
+<contact>MME ROUSSEAU ANNICK 06 14 35 75 88</contact>
+ </consignes>
+<docs />
+<operations>
+<op compo="176644" id="5127295" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="29" nom="Corbeille papiers (petites)" qteprev="7" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Papier" col_etage="7" col_cons="Sac en plus des petites corbeilles " />
+</op>
+<op compo="176644" id="5127295" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="123" nom="Sacs 110L " qteprev="7" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Papier" col_etage="6" col_cons="idage dans bac 240L au 2ème et 3ème étage " />
+</op>
+<op compo="176646" id="5127262" type="R" nom="Collecte Gobelet " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="2" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Gobelet" col_etage="1" col_cons="2eme et 3eme etage" />
+</op>
+<op compo="176645" id="5127247" type="R" nom="Collecte Plastique " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="2" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Plastique" col_etage="1" col_cons="2eme et 3eme etage" />
+</op>
+<op compo="176643" id="5127232" type="R" nom="Collecte Canettes " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="2" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Canettes" col_etage="1" col_cons="2eme et 3eme etage" />
+</op>
+ </operations>
+ </pc>
+ </dessertes>
+ </sce>
+</reponse>

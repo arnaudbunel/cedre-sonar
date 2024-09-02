@@ -1,0 +1,182 @@
+<configuration>
+	<springProfile name="prod">
+		<appender name="FILE"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>${logs.directory}/cedre.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>5</maxHistory>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>DEBUG</level>
+			</filter>
+			<encoder>
+				<pattern>%d %-5level [%t - %C{5}] : %msg%n</pattern>
+			</encoder>
+		</appender>
+		<appender name="FILE-ERROR"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>${logs.directory}/cedre-error.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>5</maxHistory>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>ERROR</level>
+			</filter>
+			<encoder>
+				<pattern>%d %-5level [%t - %C{5}.%M] : %msg%n</pattern>
+			</encoder>
+		</appender>
+		<appender name="MAIL"
+			class="ch.qos.logback.classic.net.SMTPAppender">
+			<smtpHost>smtp.gmail.com</smtpHost>
+			<smtpPort>465</smtpPort>
+			<SSL>true</SSL>
+			<username>logs.dnai</username>
+			<password>hjkudamwslpwnynp</password>
+			<to>devops@adn.ai</to>
+			<from>logs.dnai@gmail.com</from>
+			<subject>Logs : cedre - Server : ${adnai.server}</subject>
+			<layout class="ch.qos.logback.classic.html.HTMLLayout" />
+
+			<cyclicBufferTracker
+				class="ch.qos.logback.core.spi.CyclicBufferTracker">
+				<!-- send just one log entry per email -->
+				<bufferSize>1</bufferSize>
+			</cyclicBufferTracker>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>ERROR</level>
+			</filter>
+		</appender>
+		<appender name="GELF"
+			class="de.siegmar.logbackgelf.GelfTcpTlsAppender">
+			<graylogHost>gra2.logs.ovh.com</graylogHost>
+			<graylogPort>12202</graylogPort>
+			<encoder class="de.siegmar.logbackgelf.GelfEncoder">
+				<shortPatternLayout
+					class="ch.qos.logback.classic.PatternLayout">
+					<pattern>%d %-5level [%t - %C{5}] : %msg%n</pattern>
+				</shortPatternLayout>
+				<fullPatternLayout
+					class="ch.qos.logback.classic.PatternLayout">
+					<pattern>%d %-5level [%t - %C{5}] : %msg%n</pattern>
+				</fullPatternLayout>
+				<numbersAsString>false</numbersAsString>
+				<staticField>X-OVH-TOKEN:f09cdb9f-d26f-4254-ad5f-50d59add9784
+				</staticField>
+				<staticField>Application:cedre</staticField>
+				<staticField>Server:${adnai.server}</staticField>
+			</encoder>
+		</appender>
+		<appender name="ASYNC-GELF"
+			class="ch.qos.logback.classic.AsyncAppender">
+			<appender-ref ref="GELF" />
+		</appender>
+
+		<logger name="com.dnai.cedre" level="debug" additivity="false">
+			<appender-ref ref="FILE" />
+			<appender-ref ref="FILE-ERROR" />
+			<appender-ref ref="MAIL" />
+			<appender-ref ref="ASYNC-GELF" />
+		</logger>
+		<root level="info">
+			<appender-ref ref="FILE" />
+			<appender-ref ref="FILE-ERROR" />
+			<appender-ref ref="MAIL" />
+			<appender-ref ref="ASYNC-GELF" />
+		</root>
+	</springProfile>
+	<springProfile name="dev">
+		<appender name="FILE"
+				  class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+					class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>${logs.directory}/cedre.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>5</maxHistory>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>DEBUG</level>
+			</filter>
+			<encoder>
+				<pattern>%d %-5level [%t - %C{5}] : %msg%n</pattern>
+			</encoder>
+		</appender>
+		<appender name="FILE-ERROR"
+				  class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+					class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>${logs.directory}/cedre-error.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>5</maxHistory>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>ERROR</level>
+			</filter>
+			<encoder>
+				<pattern>%d %-5level [%t - %C{5}.%M] : %msg%n</pattern>
+			</encoder>
+		</appender>
+		<appender name="MAIL"
+				  class="ch.qos.logback.classic.net.SMTPAppender">
+			<smtpHost>smtp.gmail.com</smtpHost>
+			<smtpPort>465</smtpPort>
+			<SSL>true</SSL>
+			<username>logs.dnai</username>
+			<password>hjkudamwslpwnynp</password>
+			<to>devops@adn.ai</to>
+			<from>logs.dnai@gmail.com</from>
+			<subject>Logs : cedre - Server : ${adnai.server}</subject>
+			<layout class="ch.qos.logback.classic.html.HTMLLayout" />
+
+			<cyclicBufferTracker
+					class="ch.qos.logback.core.spi.CyclicBufferTracker">
+				<!-- send just one log entry per email -->
+				<bufferSize>1</bufferSize>
+			</cyclicBufferTracker>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>ERROR</level>
+			</filter>
+		</appender>
+		<appender name="GELF"
+				  class="de.siegmar.logbackgelf.GelfTcpTlsAppender">
+			<graylogHost>gra2.logs.ovh.com</graylogHost>
+			<graylogPort>12202</graylogPort>
+			<encoder class="de.siegmar.logbackgelf.GelfEncoder">
+				<shortPatternLayout
+						class="ch.qos.logback.classic.PatternLayout">
+					<pattern>%d %-5level [%t - %C{5}] : %msg%n</pattern>
+				</shortPatternLayout>
+				<fullPatternLayout
+						class="ch.qos.logback.classic.PatternLayout">
+					<pattern>%d %-5level [%t - %C{5}] : %msg%n</pattern>
+				</fullPatternLayout>
+				<numbersAsString>false</numbersAsString>
+				<staticField>X-OVH-TOKEN:f09cdb9f-d26f-4254-ad5f-50d59add9784
+				</staticField>
+				<staticField>Application:cedre-dev</staticField>
+				<staticField>Server:${adnai.server}</staticField>
+			</encoder>
+		</appender>
+		<appender name="ASYNC-GELF"
+				  class="ch.qos.logback.classic.AsyncAppender">
+			<appender-ref ref="GELF" />
+		</appender>
+
+		<logger name="com.dnai.cedre" level="debug" additivity="false">
+			<appender-ref ref="FILE" />
+			<appender-ref ref="FILE-ERROR" />
+			<appender-ref ref="MAIL" />
+			<appender-ref ref="ASYNC-GELF" />
+		</logger>
+		<root level="info">
+			<appender-ref ref="FILE" />
+			<appender-ref ref="FILE-ERROR" />
+			<appender-ref ref="MAIL" />
+			<appender-ref ref="ASYNC-GELF" />
+		</root>
+	</springProfile>
+</configuration>

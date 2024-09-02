@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reponse type="resultat">
+<sces da="2018-06-18" site="1" nom="Saint Vivien">
+<sce sid="adnaitest1" nom="SV1">
+<agts>
+<agt rang="1" id="109" nom="BUNEL Arnaud"/>
+<agt rang="2" id="492" nom="CREHALET Antoine"/>
+</agts>
+<vehicule id="183" nom="PL 183 ARG"/></sce>
+<sce sid="adnaitest2" nom="SV2">
+<agts>
+<agt rang="1" id="109" nom="BUNEL Arnaud"/>
+<agt rang="2" id="492" nom="CREHALET Antoine"/>
+</agts>
+<vehicule id="978" nom="vl 978 ARG"/></sce>
+</sces>
+<sces da="2018-06-18" site="1" nom="Bordeaux">
+<sce sid="adnaitest3" nom="BO1">
+<agts>
+<agt rang="1" id="109" nom="BUNEL Arnaud"/>
+<agt rang="2" id="492" nom="CREHALET Antoine"/>
+</agts>
+<vehicule id="183" nom="PL 183 ARG"/></sce>
+<sce sid="adnaitest4" nom="BO2">
+<agts>
+<agt rang="1" id="109" nom="BUNEL Arnaud"/>
+<agt rang="2" id="492" nom="CREHALET Antoine"/>
+</agts>
+<vehicule id="978" nom="vl 978 ARG"/></sce>
+</sces>
+</reponse>

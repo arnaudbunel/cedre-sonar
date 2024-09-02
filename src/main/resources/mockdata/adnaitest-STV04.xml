@@ -1,0 +1,282 @@
+<reponse type="resultat">
+<sce id="adnaitest2020-05-13" daykey="BFEC" tour="1" date="2020-05-13" centreID="99" centre="TEST">
+<notes/>
+<ressources>
+<agts>
+<agt nom="ADNAI AGENT TEST 01" id="99999" />
+<agt nom="ADNAI AGENT TEST 02" id="99998" />
+</agts>
+<vehicule nom=" PL 732 ADNAI" id="8171021"/>
+</ressources>
+<chargement>
+<emport>
+<C nom="BAC 770 L " qte="22"/>
+<C nom="Corbeille - Canettes plastifiée (Kit Grand format)" qte=""/>
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte=""/>
+<C nom="BAC 770 L fermé " qte=""/>
+<C nom="Sacs 110L " qte="12"/>
+<C nom="Corbeille- Marron avec croisillons" qte="2"/>
+<C nom="BAC 120L Verre opercule " qte="2"/>
+<C nom="BAC 340 L " qte="22"/>
+<C nom="Sacs" qte="1"/>
+<C nom="Corbeille marron croisillon" qte="2"/>
+<C nom="Corbeille - Apport volontaire - Papiers " qte="120"/>
+<C nom="BAC 120 L" qte="1"/>
+<C nom="BAC 340 L fermé " qte=""/>
+</emport>
+<retour>
+<C nom="BAC 770 L " qte="20"/>
+<C nom="Corbeille - Canettes plastifiée (Kit Grand format)" qte=""/>
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte=""/>
+<C nom="BAC 770 L fermé " qte=""/>
+<C nom="Sacs 110L " qte="12"/>
+<C nom="Corbeille- Marron avec croisillons" qte="2"/>
+<C nom="BAC 120L Verre opercule " qte="2"/>
+<C nom="BAC 340 L " qte="22"/>
+<C nom="Sacs" qte="1"/>
+<C nom="Corbeille marron croisillon" qte="1"/>
+<C nom="BAC 120 L" qte="1"/>
+<C nom="BAC 340 L fermé " qte=""/>
+</retour>
+</chargement>
+<dessertes start="????" stop="????">
+<pc id="ADNAI-STV04-1-01" nom="ADNAI [GREENFLEX]" status="att">
+<ctc/>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????"/>
+<remontees>
+<remonte type="signature"/>
+</remontees>
+</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">1 Rue des Majolières</a>
+<a nom="adr2"/>
+<a nom="cp">17220</a>
+<a nom="ville">Saint Vivien</a>
+</loc>
+<consignes>
+<adresseacces>PRENDRE L'ENTREE </adresseacces>
+<recommandations>
+SONNER INTERPHONE POUR ACCEDER A L ACCUEIL / Demander le badge à l'accueil
+</recommandations>
+<contact>MME VALERY LUCIE 01 42 79 44 22</contact>
+</consignes>
+<docs/>
+<operations>
+<op compo="131727" id="5144490" type="R" nom="Collecte Plastiques " prestation="Collecte">
+<dispo id="102" nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qteprev="1" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Plastiques" col_etage="1" col_cons="a l'accueil"/>
+</op>
+<op compo="131724" id="5140343" type="R" nom="Collecte Canettes " prestation="Collecte">
+<dispo id="101" nom="Corbeille - Canettes plastifiée (Kit Grand format)" qteprev="1" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Canettes" col_etage="1" col_cons="a l'accueil"/>
+</op>
+<op compo="131721" id="4943159" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="12" nom="BAC 770 L " qteprev="2" qtereel="" pdsreel="" tare="37.5" volume="1" dechet="Papier" col_etage="5" col_cons="local déchet"/>
+</op>
+<op compo="131723" id="5176895" type="R" nom="Dépôt Corbeille marron croisillon " prestation="Dépôt">
+<dispo/>
+</op>
+<op compo="131722" id="5176869" type="R" nom="Collecte Gobelets Plastique " prestation="Collecte">
+<dispo id="58" nom="Corbeille- Marron avec croisillons" qteprev="1" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Gobelets Plastique" col_etage="0" col_cons=""/>
+</op>
+</operations>
+</pc>
+<pc id="ADNAI-STV04-1-02" nom="ADNAI [EFICIUM]" status="att">
+<ctc>
+<ct id="651" titre="MALLET" tel="01 46 23 59 76 " fonction="Responsable d'Exploitation"/>
+</ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????"/>
+<remontees>
+<remonte type="signature"/>
+</remontees>
+</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">18 Rue des Majolières</a>
+<a nom="adr2"/>
+<a nom="cp">17220</a>
+<a nom="ville">Saint Vivien</a>
+</loc>
+<consignes>
+<horaires>
+06h00-11h30 (PAS AVANT 06h00) et 14h00-17h30
+</horaires>
+<adresseacces>.</adresseacces>
+<recommandations>
+SE PRESENTER AU POSTE DE SECURITE. FAIRE SIGNER AVIS DE PASSAGE PAR LES AGENTS DE SECU
+</recommandations>
+<contact>Agent de sécurité 06 30 69 87 52 </contact>
+</consignes>
+<docs/>
+<operations>
+<op compo="59513" id="5147520" type="R" nom="Collecte Canettes Sacs " prestation="Collecte">
+<dispo id="123" nom="Sacs 110L " qteprev="3" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Canettes" col_etage="0" col_cons="a prendre dans le bac 340L au local déchets"/>
+</op>
+<op compo="59512" id="5147499" type="R" nom="Collecte Plastiques Sacs " prestation="Collecte">
+<dispo id="123" nom="Sacs 110L " qteprev="3" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Plastiques" col_etage="0" col_cons="apporté par la femme de ménage"/>
+</op>
+<op compo="18303" id="5146849" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="2" qtereel="" pdsreel="" tare="38" volume="1" dechet="Papier" col_etage="0" col_cons="1 bac dans le local poubelle et 1 bac au bout du parking"/>
+</op>
+</operations>
+</pc>
+<pc id="ADNAI-STV04-1-03" nom="ADNAI-STV04-1-03" status="att">
+<ctc>
+<ct id="777" titre="MARECAR" tel="01 46 93 97 33" fonction="Assistant" />
+</ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????" />
+<remontees>
+<remonte type="signature" />
+</remontees>
+ </exe>
+<loc lat="???" lng="???">
+<a nom="adr1">Entrée principale Rue Méchain</a>
+<a nom="adr2"></a>
+<a nom="cp">75014</a>
+<a nom="ville">PARIS</a>
+ </loc>
+<consignes>
+<horaires>08h00-17h00</horaires>
+<acces>LA DEFENSE SORTIE 12 // QUAI DE LIVRAISON RECUPERER UN BADGE</acces>
+<contact>MR MARIE 06 72 91 32 70</contact>
+ </consignes>
+<docs>
+<doc url="http://ose.cedre.info/uploads/pc-2469-fm-insurance.pdf" />
+</docs>
+<operations>
+<op compo="141843" id="4767583" type="R" nom="Collecte Gobelet " prestation="Collecte">
+<dispo id="116" nom="Sacs" qteprev="8" qtereel="????" pdsreel="????" tare="0" volume="0.05" dechet="Gobelet" col_etage="0" col_cons="emplacement corbeilles: 2 au 8eme+2 au 7eme+1 au 6eme" />
+</op>
+<op compo="20992" id="3651268" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="4" nom="BAC 240 L " qteprev="1" qtereel="????" pdsreel="????" tare="13" volume="0.5" dechet="Papier" col_etage="0" col_cons="1 au 6ème, 2 au 7ème ( 1er coté réception, fond du couloir / 2nd coté claims monte charge à l'opposé de la réception) et 1 au 8ème " />
+</op>
+<op compo="132504" id="4926070" type="R" nom="Collecte Plastique ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="1" qtereel="????" pdsreel="????" tare="37.5">Retrait 1x340L fermé plastique et dépôt d'1x770L ferm¿¿</dispo>
+</op>
+ </operations>
+ </pc>
+</dessertes>
+</sce>
+<sce id="adnaitest2020-05-13" daykey="BFEC" tour="2" date="2020-05-13" centreID="99" centre="TEST">
+<notes/>
+<ressources>
+<agts>
+<agt nom="ADNAI AGENT TEST 01" id="99999" />
+<agt nom="ADNAI AGENT TEST 02" id="99998" />
+</agts>
+<vehicule nom=" PL 732 ADNAI" id="8171021"/>
+</ressources>
+<chargement>
+<emport>
+<C nom="BAC 770 L " qte="22"/>
+<C nom="Corbeille - Canettes plastifiée (Kit Grand format)" qte=""/>
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte=""/>
+<C nom="BAC 770 L fermé " qte=""/>
+<C nom="Sacs 110L " qte="12"/>
+<C nom="Corbeille- Marron avec croisillons" qte="2"/>
+<C nom="BAC 120L Verre opercule " qte="2"/>
+<C nom="BAC 340 L " qte="22"/>
+<C nom="Sacs" qte="1"/>
+<C nom="Corbeille marron croisillon" qte="2"/>
+<C nom="Corbeille - Apport volontaire - Papiers " qte="120"/>
+<C nom="BAC 120 L" qte="1"/>
+<C nom="BAC 340 L fermé " qte=""/>
+</emport>
+<retour>
+<C nom="BAC 770 L " qte="20"/>
+<C nom="Corbeille - Canettes plastifiée (Kit Grand format)" qte=""/>
+<C nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qte=""/>
+<C nom="BAC 770 L fermé " qte=""/>
+<C nom="Sacs 110L " qte="12"/>
+<C nom="Corbeille- Marron avec croisillons" qte="2"/>
+<C nom="BAC 120L Verre opercule " qte="2"/>
+<C nom="BAC 340 L " qte="22"/>
+<C nom="Sacs" qte="1"/>
+<C nom="Corbeille marron croisillon" qte="1"/>
+<C nom="BAC 120 L" qte="1"/>
+<C nom="BAC 340 L fermé " qte=""/>
+</retour>
+</chargement>
+<dessertes start="????" stop="????">
+<pc id="ADNAI-STV04-2-01" nom="ADNAI [EDITIONS ALBIN MICHEL - SIEGE]" status="att">
+<ctc/>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????"/>
+<remontees>
+<remonte type="signature"/>
+</remontees>
+</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">10 Rue de la Garenne</a>
+<a nom="adr2"/>
+<a nom="cp">17220</a>
+<a nom="ville">Saint Vivien</a>
+</loc>
+<consignes>
+<adresseacces>PRENDRE L'ENTREE </adresseacces>
+<recommandations>
+SONNER INTERPHONE POUR ACCEDER A L ACCUEIL / Demander le badge à l'accueil
+</recommandations>
+<contact>MME VALERY LUCIE 01 42 79 44 22</contact>
+</consignes>
+<docs/>
+<operations>
+<op compo="131727" id="5144490" type="R" nom="Collecte Plastiques " prestation="Collecte">
+<dispo id="102" nom="Corbeille - Bouteilles plast plastifiée (Kit Grand format)" qteprev="1" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Plastiques" col_etage="1" col_cons="a l'accueil"/>
+</op>
+<op compo="131724" id="5140343" type="R" nom="Collecte Canettes " prestation="Collecte">
+<dispo id="101" nom="Corbeille - Canettes plastifiée (Kit Grand format)" qteprev="1" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Canettes" col_etage="1" col_cons="a l'accueil"/>
+</op>
+<op compo="131721" id="4943159" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="12" nom="BAC 770 L " qteprev="2" qtereel="" pdsreel="" tare="37.5" volume="1" dechet="Papier" col_etage="5" col_cons="local déchet"/>
+</op>
+<op compo="131723" id="5176895" type="R" nom="Dépôt Corbeille marron croisillon " prestation="Dépôt">
+<dispo/>
+</op>
+<op compo="131722" id="5176869" type="R" nom="Collecte Gobelets Plastique " prestation="Collecte">
+<dispo id="58" nom="Corbeille- Marron avec croisillons" qteprev="1" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Gobelets Plastique" col_etage="0" col_cons=""/>
+</op>
+</operations>
+</pc>
+<pc id="ADNAI-STV04-2-02" nom="ADNAI [GECINA bat 478]" status="att">
+<ctc>
+<ct id="651" titre="MALLET" tel="01 46 23 59 76 " fonction="Responsable d'Exploitation"/>
+</ctc>
+<exe start="????" stop="????">
+<recept nomprenom="????" fonction="????" tel="????"/>
+<remontees>
+<remonte type="signature"/>
+</remontees>
+</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">18 Rue de la Garenne</a>
+<a nom="adr2"/>
+<a nom="cp">17220</a>
+<a nom="ville">Saint Vivien</a>
+</loc>
+<consignes>
+<horaires>
+06h00-11h30 (PAS AVANT 06h00) et 14h00-17h30
+</horaires>
+<adresseacces>.</adresseacces>
+<recommandations>
+SE PRESENTER AU POSTE DE SECURITE. FAIRE SIGNER AVIS DE PASSAGE PAR LES AGENTS DE SECU
+</recommandations>
+<contact>Agent de sécurité 06 30 69 87 52 </contact>
+</consignes>
+<docs/>
+<operations>
+<op compo="59513" id="5147520" type="R" nom="Collecte Canettes Sacs " prestation="Collecte">
+<dispo id="123" nom="Sacs 110L " qteprev="3" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Canettes" col_etage="0" col_cons="a prendre dans le bac 340L au local déchets"/>
+</op>
+<op compo="59512" id="5147499" type="R" nom="Collecte Plastiques Sacs " prestation="Collecte">
+<dispo id="123" nom="Sacs 110L " qteprev="3" qtereel="" pdsreel="" tare="0" volume="0.05" dechet="Plastiques" col_etage="0" col_cons="apporté par la femme de ménage"/>
+</op>
+<op compo="18303" id="5146849" type="R" nom="Collecte Papier " prestation="Collecte">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="2" qtereel="" pdsreel="" tare="38" volume="1" dechet="Papier" col_etage="0" col_cons="1 bac dans le local poubelle et 1 bac au bout du parking"/>
+</op>
+</operations>
+</pc>
+</dessertes>
+</sce>
+</reponse>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reponse type="resultat">
+<sce id="adnaitest6" tour="1" centreID="99" centre="TEST">
+<notes />
+<ressources>
+<agts>
+<agt nom="ADNAI AGENT TEST 10" id="10109" />
+<agt nom="ADNAI AGENT TEST 11" id="11492" />
+ </agts>
+<vehicule nom="PL 183 ARG" id="183" />
+ </ressources>
+<chargement>
+<emport>
+<C nom="BAC 770 L timonné " qte="" />
+<C nom="Balles" qte="9" />
+<C nom="Palettes (non fournies)" qte="6" />
+<C nom="BAC 770 L " qte="1" />
+ </emport>
+<retour>
+<C nom="BAC 770 L timonné " qte="" />
+<C nom="Balles" qte="9" />
+<C nom="BAC 770 L " qte="1" />
+ </retour>
+ </chargement>
+<dessertes start="????" stop="????">
+<pc id="2254" nom="GFI St ouen">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">Avenue du Colonel Robert Jacqui</a>
+<a nom="adr2" />
+<a nom="cp">33600</a>
+<a nom="ville">Pessac</a>
+ </loc>
+<consignes>
+<horaires>A PARTIR DE 7H00</horaires>
+<acces>4 rue riberioux madelein</acces>
+<contact>Mr lagouche ou mr tadmaya</contact>
+ </consignes>
+<operations>
+<op compo="17664" id="4675793" type="R" nom="Collecte Papier ">
+<dispo id="12" nom="BAC 770 L " qteprev="1" qtereel="????" pdsreel="????" />
+</op>
+<op compo="157814" id="5060557" type="R" nom="Collecte Gobelet ">
+<dispo id="8" nom="BAC 340 L fermé " qteprev="4" qtereel="????" pdsreel="????">RDC zone déchets extérieure</dispo>
+</op>
+</operations>
+</pc>
+<pc id="13712" nom="GFI Mozart">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">20 rue Verthamon</a>
+<a nom="adr2" />
+<a nom="cp">33600</a>
+<a nom="ville">Pessac</a>
+ </loc>
+<consignes>
+<acces>2 bacs alu au 4eme étage service paie</acces>
+<contact>MR Jacques au 06.86.26.49.43</contact>
+ </consignes>
+<operations>
+<op compo="52324" id="2506746" type="R" nom="Collecte Papier ">
+<dispo id="14" nom="BAC 770 L timonné " qteprev="1" qtereel="????" pdsreel="????" />
+</op>
+</operations>
+ </pc>
+ </dessertes>
+ </sce>
+<sce id="adnaitest2018-06-18.1.2" tour="2">
+<notes />
+<ressources>
+<agts>
+<agt nom="ES SIFER" id="109" />
+<agt nom="DEROZIER" id="492" />
+ </agts>
+<vehicule nom="PL 183 ARG" id="183" />
+ </ressources>
+<chargement>
+<emport>
+<C nom="BAC 770 L fermé " qte="" />
+<C nom="BAC 770 L " qte="7" />
+<C nom="BAC 340 L " qte="4" />
+<C nom="Corbeille marron croisillon" qte="2" />
+<C nom="BAC 340 L fermé " qte="" />
+<C nom="BAC 240 L fermé " qte="" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+ </emport>
+<retour>
+<C nom="BAC 770 L fermé " qte="" />
+<C nom="BAC 770 L " qte="7" />
+<C nom="BAC 340 L " qte="4" />
+<C nom="BAC 340 L fermé " qte="" />
+<C nom="BAC 240 L fermé " qte="" />
+<C nom="BAC 120 L fermé ALU" qte="" />
+ </retour>
+ </chargement>
+<dessertes start="????" stop="????">
+<pc id="2292" nom="RE SOURCES St Denis">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">10 rue james Watt</a>
+<a nom="adr2" />
+<a nom="cp">93285</a>
+<a nom="ville">SAINT DENIS</a>
+ </loc>
+<consignes>
+<horaires>a partir de 9H sonner à interphone pour ouverture de la grille bacs dans local déchets</horaires>
+<contact>Mr Coubray pour la collecte de pile</contact>
+ </consignes>
+<operations>
+<op compo="88828" id="4180524" type="R" nom="Collecte Papier ">
+<dispo id="12" nom="BAC 770 L " qteprev="4" qtereel="????" pdsreel="????" />
+</op>
+<op compo="88828" id="4180524" type="R" nom="Collecte Papier ">
+<dispo id="7" nom="BAC 340 L " qteprev="2" qtereel="????" pdsreel="????" />
+</op>
+ </operations>
+ </pc>
+<pc id="14393" nom="GENERALE DE TELEPHONE">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">50 avenue du Président Wilson</a>
+<a nom="adr2">bat 134</a>
+<a nom="cp">93210</a>
+<a nom="ville">LA PLAINE ST DENIS</a>
+ </loc>
+<consignes>
+<horaires>09h00-13h00 ET 14h00-17h00</horaires>
+<acces>.</acces>
+<contact>.</contact>
+ </consignes>
+<operations>
+<op compo="114005" id="4435815" type="R" nom="Collecte Canettes Sacs ">
+<dispo />
+</op>
+<op compo="85415" id="4387025" type="R" nom="Dépôt 2 x Corbeille marron croisillon ">
+<dispo id="36" nom="Corbeille marron croisillon" qteprev="2" qtereel="????" pdsreel="????" />
+</op>
+<op compo="85414" id="4170343" type="R" nom="Collecte Gobelet ">
+<dispo />
+</op>
+<op compo="85411" id="4169840" type="R" nom="Collecte Plastique Sacs ">
+<dispo />
+</op>
+<op compo="85410" id="4169624" type="R" nom="Collecte Papier ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="1" qtereel="????" pdsreel="????" />
+</op>
+ </operations>
+ </pc>
+<pc id="47864" nom="KABO (cinÃ©ma)">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">20 rue ampère</a>
+<a nom="adr2" />
+<a nom="cp">93210</a>
+<a nom="ville">SAINT DENIS</a>
+ </loc>
+<consignes>
+<horaires>.</horaires>
+<acces>.</acces>
+<contact>Raphael 06 83 17 45 00 ou Damien 06 71 69 04 73</contact>
+ </consignes>
+<operations>
+<op compo="132452" id="4660915" type="R" nom="Collecte Papier ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="3" qtereel="????" pdsreel="????" />
+</op>
+<op compo="132504" id="4926070" type="R" nom="Collecte Plastique ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="1" qtereel="????" pdsreel="????">Retrait 1x340L fermé plastique et dépôt d'1x770L ferm¿¿</dispo>
+</op>
+<op compo="132505" id="4858763" type="R" nom="Collecte Canettes ">
+<dispo id="5" nom="BAC 240 L fermé " qteprev="1" qtereel="????" pdsreel="????" />
+</op>
+ </operations>
+ </pc>
+<pc id="47865" nom="AKCB (Pleyel)">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">1 rue Louis Marchand</a>
+<a nom="adr2" />
+<a nom="cp">93200</a>
+<a nom="ville">SAINT DENIS</a>
+ </loc>
+<consignes>
+<horaires>7h30 (A PARTIR DE) ( A PARTIR DE 9h30 QUAND IL Y A LES PILES)</horaires>
+<acces>.</acces>
+<contact>SERVANT Damien 06 71 69 04 73</contact>
+ </consignes>
+<operations>
+<op compo="132721" id="4859064" type="R" nom="Collecte Plastique ">
+<dispo id="8" nom="BAC 340 L fermé " qteprev="1" qtereel="????" pdsreel="????" />
+</op>
+<op compo="132458" id="4855159" type="R" nom="Collecte Papier ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="2" qtereel="????" pdsreel="????" />
+</op>
+<op compo="132722" id="4661017" type="R" nom="Collecte Canettes ">
+<dispo id="8" nom="BAC 340 L fermé " qteprev="1" qtereel="????" pdsreel="????" />
+</op>
+ </operations>
+ </pc>
+<pc id="47928" nom="RABOT DUTILLEUL">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">9-23 rue Paul Lafargue</a>
+<a nom="adr2">Immeuble le triangle</a>
+<a nom="cp">93210</a>
+<a nom="ville">LA PLAINE ST DENIS</a>
+ </loc>
+<consignes>
+<horaires>08h30-12h30 / 13h30-17h30</horaires>
+<acces>ACCES LIVRAISON A L'ENTREE DE L'IMMEUBLE</acces>
+<contact>BOULAHIA FADILA</contact>
+ </consignes>
+<operations>
+<op compo="169274" id="5111548" type="P" nom="Dépôt/Retrait 2 x Papier BAC 340 L Papier">
+<dispo>pour 8 sacs de papiers + cartons pliés / Lindsay 01 49 21 15 78</dispo>
+</op>
+</operations>
+ </pc>
+<pc id="49328" nom="PANORANET">
+<exe start="????" stop="????">??? commentaires éventuels d'exécution</exe>
+<loc lat="????" lng="????">
+<a nom="adr1">4 allée de seine</a>
+<a nom="adr2" />
+<a nom="cp">ST DENIS</a>
+<a nom="ville">93200</a>
+ </loc>
+<consignes>
+<horaires>09h00-20h00 (PAS AVANT 9h00)</horaires>
+<acces>ZONE DECHETS EXTERIEURE RDC</acces>
+<contact>IZRI FARID 06 32 22 48 97 / 01 55 87 59 87</contact>
+ </consignes>
+<operations>
+<op compo="157814" id="5060557" type="R" nom="Collecte Gobelet ">
+<dispo id="8" nom="BAC 340 L fermé " qteprev="1" qtereel="????" pdsreel="????">RDC zone déchets extérieure</dispo>
+</op>
+<op compo="157812" id="5060501" type="R" nom="Collecte Papier ">
+<dispo id="13" nom="BAC 770 L fermé " qteprev="1" qtereel="????" pdsreel="????">RDC zone déchets extérieure</dispo>
+</op>
+<op compo="168891" id="5111253" type="P" nom="Collecte Confidentiels Confidentiels">
+<dispo id="3" nom="BAC 120 L fermé ALU" qteprev="2" qtereel="????" pdsreel="????">1 bac au 2 étage service DAF et 1 bac au 3 étage service Irgroupe</dispo>
+</op>
+ </operations>
+ </pc>
+ </dessertes>
+ </sce>
+ </reponse>
