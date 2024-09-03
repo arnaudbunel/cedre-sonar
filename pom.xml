@@ -170,26 +170,12 @@
 			<version>${guava.version}</version>
 		</dependency>
 
-		<!--<dependency>
-			<groupId>com.dnai</groupId>
-			<artifactId>commons</artifactId>
-			<version>${adnai.commons.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.dnai.utils</groupId>
-			<artifactId>dnaiutils-client</artifactId>
-			<version>${dnaiutils-client.version}</version>
-		</dependency>-->
 		<dependency>
 			<groupId>de.siegmar</groupId>
 			<artifactId>logback-gelf</artifactId>
 			<version>${logback-gelf.version}</version>
 		</dependency>
-		<!--<dependency>
-			<groupId>jakarta.xml.bind</groupId>
-			<artifactId>jakarta.xml.bind-api</artifactId>
-			<version>4.0.0</version>
-		</dependency>-->
+
 		<!-- Jacoco -->
 		<dependency>
 			<groupId>org.jacoco</groupId>
@@ -272,5 +258,37 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<profiles>
+		<profile>
+			<id>coverage</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+						<version>0.8.8</version>
+						<executions>
+							<execution>
+								<id>prepare-agent</id>
+								<goals>
+									<goal>prepare-agent</goal>
+								</goals>
+							</execution>
+							<execution>
+								<id>report</id>
+								<goals>
+									<goal>report</goal>
+								</goals>
+								<configuration>
+									<formats>
+										<format>XML</format>
+									</formats>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 </project>
